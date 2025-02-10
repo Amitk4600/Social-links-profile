@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+.container {
+  font-family: "Inter", serif;
+  border-radius: 12px;
+  max-width: 55vh;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #1f1f1f;
+}
+.main {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+  padding: 28px;
+  margin: 56px 10px;
+  color: white;
+}
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top-section img {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+}
+.name {
+  padding: 13px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.name h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.name h3 {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.9rem;
+}
+.name span {
+  padding: 1rem 10px;
+  font-size: 14px;
+}
+
+.link ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.link ul li {
+  list-style: none;
+  background: #333333;
+  margin: 14px 0 0 0;
+  text-align: center;
+  padding: 13px 7px;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.link ul li:active {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    position: relative;
+    top: 7px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    position: relative;
+    top: 7px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    position: relative;
+    top: 7px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    position: relative;
+    top: 7px;
+  }
+}
