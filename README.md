@@ -32,4 +32,4 @@ A responsive social links profile page for Jessica Randall, built with HTML and 
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/social-links-profile.git
+git clone https://github.com/Amitk4600/social-links-profile.git
